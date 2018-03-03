@@ -1,0 +1,7 @@
+# Build
+_site/
+node_modules/
+
+
+# User-specific
+.idea/*

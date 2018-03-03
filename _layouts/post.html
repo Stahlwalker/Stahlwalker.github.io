@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+		<div class="article-container">
+			<section>
+				<article>
+					<h1>{{ page.title }}
+						<span class="margin-10-l">
+							<a href="https://twitter.com/share?url=http://stahlwalker.com{{ page.url }}" data-toggle="tooltip" title="Share on Twitter">
+								<i class="fa fa-twitter fa-2"></i>
+                            </a>
+						</span>
+					</h1>
+					<span class="date">{{ page.author }} on {{ page.date | date: "%B %e, %Y" }}</span>
+
+					{{ content }}
+				</article>
+			</section>
+		</div>
+
+		<div class="disqus">
+			<div id="disqus_thread"></div>
+		</div>
+
+		<script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES * * */
+			var disqus_shortname = 'yolonerds';
+			var disqus_identifier = '{{ page.id }}';
+			var disqus_title = '{{ page.title }}';
+			var disqus_url = "{% if site.host == 'localhost' %}http://localhost:4000{{ page.url }}{% else %}http://yolonerds.com{{ page.url }}{% endif %}";
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
