@@ -1,7 +1,7 @@
-title: 'YOLOnerds'
-url: "http://yolonerds.com"
-twitter_username: yolonerds
-github_username:  lzychowski
+title: 'Stahlwalker'
+url: "https://stahlwalker.github.io/"
+twitter_username: lucasstahl11
+github_username:  stahlwalker
 
 # Conversion
 markdown: kramdown
@@ -15,7 +15,7 @@ kramdown:
    syntax_highlighter: rouge
 
 # Serving
-host: http://yolonerds.com
+host: https://stahlwalker.github.io/
 
 # Paging
 paginate: 10

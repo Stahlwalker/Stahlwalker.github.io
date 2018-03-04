@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Stahlwalker/Stahlwalker.github.io/issues"
   },
-  "homepage": "https://github.com/Stahlwalker/Stahlwalker.github.io#readme",
+  "homepage": "https://stahlwalker.github.io/",
   "dependencies": {
     "chartist-plugin-tooltip": "0.0.11"
   },
