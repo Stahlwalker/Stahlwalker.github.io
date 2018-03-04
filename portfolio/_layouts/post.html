@@ -7,7 +7,7 @@ layout: default
 				<article>
 					<h1>{{ page.title }}
 						<span class="margin-10-l">
-							<a href="https://twitter.com/share?url=http://stahlwalker.com{{ page.url }}" data-toggle="tooltip" title="Share on Twitter">
+							<a href="https://twitter.com/share?url=https://stahlwalker.github.io/{{ page.url }}" data-toggle="tooltip" title="Share on Twitter">
 								<i class="fa fa-twitter fa-2"></i>
                             </a>
 						</span>
@@ -25,10 +25,10 @@ layout: default
 
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES * * */
-			var disqus_shortname = 'yolonerds';
+			var disqus_shortname = 'stahlwalker';
 			var disqus_identifier = '{{ page.id }}';
 			var disqus_title = '{{ page.title }}';
-			var disqus_url = "{% if site.host == 'localhost' %}http://localhost:4000{{ page.url }}{% else %}http://yolonerds.com{{ page.url }}{% endif %}";
+			var disqus_url = "{% if site.host == 'localhost' %}http://localhost:4000{{ page.url }}{% else %}https://stahlwalker.github.io/{{ page.url }}{% endif %}";
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
 				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
