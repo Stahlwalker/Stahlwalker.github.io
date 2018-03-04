@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+
+<div class="container-fluid">
+    <div class="contentCompare" style="min-height: 850px;">
+            <!-- <img src="assets/images/brain.jpg" alt="Bio" class="responsive" width="100%" height="auto"> -->
+        <div class="rowAnimate">
+            <div id="wordsAnimate">
+                <div class="word w1">Pick 2</div>
+                <div class="word w2">Start 'Em</div>
+                <div class="word w3">Sit 'Em</div>
+            </div>
+        </div>
+            <div class="player">
+                    <h1>Player Search</h1>
+                
+                    
+                
+                    <!-- This form will be where users input data about the movies -->
+                    <form id="player-form">
+                      <label for="player-input">Search for a player</label>
+                      <br>
+                      <input type="text" id="player-input"><br>
+                
+                      <!-- This button will trigger our AJAX call -->
+                      <input id="find-player" type="submit" value="Player Search">
+                    </form>
+
+                    <!-- We'll be dumping our JSON contents in here -->
+                    <br>
+                    <div id="player-displayName"></div>
+                    <div id="player-team"></div>
+                    <div id="player-position"></div>
+            </div>
