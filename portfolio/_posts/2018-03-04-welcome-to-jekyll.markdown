@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Stahlwalker!"
 date:   2018-03-04 13:56:00 -0600
 categories: jekyll update
 body-class: post-welcome
