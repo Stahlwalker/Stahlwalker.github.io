@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Stahlwalker!"
 date:   2018-03-05
 categories: packers news
+author: "Lucas Stahl"
+permalink: "/my-new-url/test"
 ---
 
 Rodgers was off to one of the best starts of his career -- with 13 touchdowns and three interceptions plus a 4-1 record -- when he broke his collarbone, so there's no sense that he's close to the beginning of his decline. But the Packers have to protect themselves better than they did last year in case disaster strikes Rodgers again. Hundley will get another shot at the backup job, but the Packers need to make sure they have other options in case Hundley doesn't progress.
