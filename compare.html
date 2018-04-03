@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stahlwalker's Picks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/bootswatch.css">
+   -->
+    <!-- Annimate CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- Google Font Megrim -->
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+</head>
+
+<body>
+
+        
+
+    <!-- Jumbotron for Title -->
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <h3 class="text-muted" id="googleFont">Stahlwalker's Weekly Picks</h3>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">
+                            <p>
+                                <span class="glyphicon glyphicon-home"></span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="compare.html">Compare</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="contentCompare" style="min-height: 850px;">
+                <!-- <img src="assets/images/brain.jpg" alt="Bio" class="responsive" width="100%" height="auto"> -->
+            <div class="rowAnimate">
+                <div id="wordsAnimate">
+                    <div class="word w1">Pick 2</div>
+                    <div class="word w2">Start 'Em</div>
+                    <div class="word w3">Sit 'Em</div>
+                </div>
+            </div>
+                <div class="player">
+                        <h1>Player Search</h1>
+                    
+                        
+                    
+                        <!-- This form will be where users input data about the movies -->
+                        <form id="player-form">
+                          <label for="player-input">Search for a player</label>
+                          <br>
+                          <input type="text" id="player-input"><br>
+                    
+                          <!-- This button will trigger our AJAX call -->
+                          <input id="find-player" type="submit" value="Player Search">
+                        </form>
+
+                        <!-- We'll be dumping our JSON contents in here -->
+                        <br>
+                        <div id="player-displayName"></div>
+                        <div id="player-team"></div>
+                        <div id="player-position"></div>
+                </div>
+
+
+
+
+        </div>
+        <footer class="footer">
+                <div class="container-fluid">
+                        <a href="https://www.facebook.com/lucas.stahl.75">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/LucasStahl11">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lucasstahl">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://lucasstahl.wordpress.com/">
+                            <i class="fa fa-wordpress"></i>
+                        </a>
+                    <p id="copyRight">@Copyright 2018 www.Stahlwalker.com</p>
+                </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/api.js"></script>
+
+    </script>
+
+</body>
+
+</html>
