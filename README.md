@@ -1,6 +1,6 @@
 # Stahlwalker's Weekly Picks
 
-![This is a screen shot of text file results](https://github.com/Stahlwalker/liri-node-app/blob/master/logfile2.png)
+![This is a screen shot of text file results](https://github.com/Stahlwalker/Stahlwalker.github.io/blob/master/assets/images/stahlwalker.jpg)
 
 ## What the project does?
     * This project is designed to allow fantasy football users to compare and contrast players.  
